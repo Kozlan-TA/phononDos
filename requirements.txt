@@ -1,0 +1,11 @@
+ase==3.22.0
+notebook==6.4.5
+pip==21.3.1
+torch==1.10.0
+torchaudio==0.10.0
+torchvision==0.11.1
+e3nn==0.4.2
+torch-scatter torch-cluster torch-sparse torch-spline-conv -f https://pytorch-geometric.com/whl/torch-$(python -c "import torch; print(torch.__version__)").html
+torch-geometric==2.0.2
+plotly==5.3.1
+mp-api
